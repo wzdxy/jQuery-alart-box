@@ -38,3 +38,4 @@ ModalOptions.modalHeight=140;
 ModalOptions.modalMargin=1;
 initModal(ModalOptions);
 ```
+###所有配置项均为可选项，可以随意选择配置其中的几项
