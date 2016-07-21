@@ -1,6 +1,6 @@
 #基于jQuery和BootStrap的弹出框插件
-##1、demo
-
+##1、Demo
+http://wzdxy.github.io/alarm-box/
 ##2、依赖的文件
 - jQuery.js
 - Bootstrap.css
