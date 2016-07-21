@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alart-modal-demo</title>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="alarm-box.css">
+</head>
+<body>
+    <label for="testStr">内容：</label>
+    <input type="text" id='testStr'>
+    <label for="testTitle">标题：</label>
+    <input type="text" id='testTitle'>
+    <button onclick="testBtn()">Test</button>
+    <div id="alarm-box"></div>
+    <script src='jquery-1.11.1.min.js'></script>
+    <script src='alarm-box.js'></script>
+    <script>
+        ModalOptions.btnInnerFirst='取消';
+        ModalOptions.btnInnerSecond='知道了';
+        // ModalOptions.modalHeight=180;
+        function testBtn(){    
+            var str=document.getElementById('testStr').value||'test string';
+            var title=document.getElementById('testTitle').value||'test title';
+            createPopBox(str,title);
+        }   
+    </script>
+</body>
+</html>
